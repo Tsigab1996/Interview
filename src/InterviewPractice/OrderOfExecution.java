@@ -9,12 +9,16 @@ public class OrderOfExecution {
     static {
         System.out.println("This is a static block");
     }
+
+    static {
+        System.out.println("The system has been added into gitHub");
+    }
     {
         System.out.println("This is not static block or simply it is init block");
     }
     public static void main(String[] args) {
 
          OrderOfExecution a= new OrderOfExecution();
-        System.out.println("This is the main method");
+         System.out.println("This is the main method");
     }
 }
