@@ -15,5 +15,6 @@ public class OrderOfExecution {
     public static void main(String[] args) {
 
          OrderOfExecution a= new OrderOfExecution();
+        System.out.println("This is the main method");
     }
 }
